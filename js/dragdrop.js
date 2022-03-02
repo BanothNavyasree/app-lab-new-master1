@@ -217,7 +217,7 @@ drake.on('out', (el, container) => {
 
 /**
  * save in local storage
- */
+	 */
 if (typeof db.getItem('savedData') !== 'undefined') {
 	_('.box-right').innerHTML = db.getItem('savedData');
   makeEditable();

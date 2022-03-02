@@ -69,7 +69,7 @@ font-size: 30px;
 .slidingcontainer{
 display:none;
 }
-.slidingcard{
+ .slidingcard{
     background-color: rgb(197, 30, 30);
     width:220px;
     height:450px;
@@ -79,5 +79,26 @@ display:none;
     margin-top: 70px;
     z-index: 5;
     position: absolute;
-
 }
+.mySlides{
+    display:none;
+     background-color:white;
+    width:220px;
+    height:450px;
+    border-radius: 10px;
+    /* float: right; */
+    margin-left: 210px;
+    margin-top: 70px;
+    z-index: 5;
+    position: absolute;
+}
+.card1{
+    width:200px;
+    height:120px;
+    background-color: black;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-top: 30px;
+ 
+  }
+
